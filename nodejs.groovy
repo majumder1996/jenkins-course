@@ -1,4 +1,4 @@
-job('cicdtest') {
+job('cicdtest-002') {
     scm {
         git('git://github.com/majumder1996/testcicd.app.git') {  node -> // is hudson.plugins.git.GitSCM
             node / gitConfigName('DSL User')
